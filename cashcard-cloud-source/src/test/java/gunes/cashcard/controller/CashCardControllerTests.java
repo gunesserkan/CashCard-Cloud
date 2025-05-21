@@ -3,10 +3,9 @@ package gunes.cashcard.controller;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import gunes.cashcard.domain.CashCard;
 import gunes.cashcard.domain.Transaction;
-import gunes.cashcard.stream.CashCardStream;
+import gunes.cashcard.stream.CashCardTransactionStream;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.web.client.TestRestTemplate;
 import org.springframework.boot.test.web.server.LocalServerPort;
@@ -22,7 +21,7 @@ import java.io.IOException;
 import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-@Import({TestChannelBinderConfiguration.class, CashCardStream.class})
+@Import({TestChannelBinderConfiguration.class, CashCardTransactionStream.class})
 public class CashCardControllerTests {
 
     @LocalServerPort
