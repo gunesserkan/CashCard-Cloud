@@ -1,13 +1,13 @@
-package gunes.cashcard;
+package com.gunes.enricher;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CashcardApplication {
+public class EnricherApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CashcardApplication.class, args);
+		SpringApplication.run(EnricherApplication.class, args);
 	}
 
 }
