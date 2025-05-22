@@ -1,4 +1,4 @@
-package gunes.cashcard.domain;
+package gunes.domain;
 
 public record Transaction(
     Long id,

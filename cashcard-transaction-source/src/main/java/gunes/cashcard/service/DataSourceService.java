@@ -1,7 +1,8 @@
 package gunes.cashcard.service;
 
-import gunes.cashcard.domain.CashCard;
-import gunes.cashcard.domain.Transaction;
+
+import gunes.domain.CashCard;
+import gunes.domain.Transaction;
 
 import java.util.Random;
 

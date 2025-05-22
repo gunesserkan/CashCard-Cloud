@@ -1,9 +1,9 @@
 package com.gunes.enricher.enricher;
 
 
-import com.gunes.enricher.domain.EnrichedTransaction;
-import com.gunes.enricher.domain.Transaction;
 import com.gunes.enricher.service.EnrichmentService;
+import gunes.domain.EnrichedTransaction;
+import gunes.domain.Transaction;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

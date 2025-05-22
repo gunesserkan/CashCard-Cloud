@@ -1,4 +1,4 @@
-package com.gunes.enricher.domain;
+package gunes.domain;
 
 import java.util.UUID;
 

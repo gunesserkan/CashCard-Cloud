@@ -1,4 +1,4 @@
-package com.gunes.enricher.domain;
+package gunes.domain;
 
 public record EnrichedTransaction(Long id,
                                   CashCard cashCard,

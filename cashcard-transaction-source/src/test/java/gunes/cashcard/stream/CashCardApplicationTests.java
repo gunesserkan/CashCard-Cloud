@@ -1,9 +1,9 @@
 package gunes.cashcard.stream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import gunes.cashcard.domain.CashCard;
-import gunes.cashcard.domain.Transaction;
 import gunes.cashcard.service.DataSourceService;
+import gunes.domain.CashCard;
+import gunes.domain.Transaction;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,7 +1,7 @@
 package com.gunes.enricher;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.gunes.enricher.domain.*;
+import gunes.domain.*;
 import com.gunes.enricher.service.EnrichmentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

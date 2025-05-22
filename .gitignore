@@ -1,0 +1,4 @@
+.gradle
+.idea
+cashcard-transaction-*/.gradle
+cashcard-transaction-*/build

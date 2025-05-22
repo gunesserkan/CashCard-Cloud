@@ -1,6 +1,6 @@
 package gunes.cashcard.ondemand;
 
-import gunes.cashcard.domain.Transaction;
+import gunes.domain.Transaction;
 import org.springframework.cloud.stream.function.StreamBridge;
 import org.springframework.context.annotation.Configuration;
 

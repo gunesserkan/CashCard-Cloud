@@ -1,7 +1,7 @@
 package gunes.cashcard.stream;
 
-import gunes.cashcard.domain.Transaction;
 import gunes.cashcard.service.DataSourceService;
+import gunes.domain.Transaction;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

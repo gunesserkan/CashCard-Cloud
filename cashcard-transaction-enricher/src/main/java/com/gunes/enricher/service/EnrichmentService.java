@@ -1,9 +1,9 @@
 package com.gunes.enricher.service;
 
-import com.gunes.enricher.domain.ApprovalStatus;
-import com.gunes.enricher.domain.CardHolderData;
-import com.gunes.enricher.domain.EnrichedTransaction;
-import com.gunes.enricher.domain.Transaction;
+import gunes.domain.ApprovalStatus;
+import gunes.domain.CardHolderData;
+import gunes.domain.EnrichedTransaction;
+import gunes.domain.Transaction;
 
 import java.util.UUID;
 
