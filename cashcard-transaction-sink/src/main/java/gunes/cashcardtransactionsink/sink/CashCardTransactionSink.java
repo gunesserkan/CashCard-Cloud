@@ -13,7 +13,7 @@ public class CashCardTransactionSink {
     @Bean
     public Consumer<EnrichedTransaction> sinkToConsole(){
         return enrichedTransaction -> {
-            System.out.println("Transaction recieved: "+enrichedTransaction);
+            System.out.println("Transaction Received: "+ enrichedTransaction);
         };
     }
 }
